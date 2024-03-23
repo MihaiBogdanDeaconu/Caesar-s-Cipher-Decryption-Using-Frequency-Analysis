@@ -4,9 +4,11 @@ Caesar's Cipher Decryption Using Frequency Analysis
 This project implements a decryption method for Caesar's Cipher using frequency analysis. Caesar's Cipher is a simple substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. Frequency analysis relies on the fact that some letters (or combination of letters) occur more frequently in a language, and uses this information to decrypt the text.
 
 Motivation
+
 This project is inspired by Practical Cryptography's article on using the Chi Squared test to crack a Caesar Shift code. The Chi Squared test is a statistical method commonly used to determine the goodness of fit between observed and expected frequencies. By applying this method to ciphertexts encrypted with Caesar's Cipher, we can efficiently decrypt them.
 
 Methodology
+
 The decryption process involves several steps:
 
 Frequency Analysis: Calculate the frequency of each letter in the encrypted text.

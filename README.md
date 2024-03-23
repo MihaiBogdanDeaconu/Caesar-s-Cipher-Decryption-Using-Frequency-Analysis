@@ -12,9 +12,13 @@ Methodology
 The decryption process involves several steps:
 
 Frequency Analysis: Calculate the frequency of each letter in the encrypted text.
+
 Expected Values: Determine the expected frequency of each letter based on the English language.
+
 Chi Squared Calculation: Compute the Chi Squared distance between the observed and expected frequencies for each letter.
+
 Shift Analysis: Shift the encrypted text through all possible permutations and calculate the Chi Squared distance for each permutation.
+
 Decryption: Select the permutation with the lowest Chi Squared distance as the decrypted solution.
 
 Installation

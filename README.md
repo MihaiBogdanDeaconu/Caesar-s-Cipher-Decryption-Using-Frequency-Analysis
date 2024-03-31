@@ -40,7 +40,7 @@ To use this project, follow these steps:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/MihaiBogdanDeaconu/Caesar-s-Cipher-Decryption-Using-Frequency-Analysis-C
+    git clone https://github.com/MihaiBogdanDeaconu/Caesar-s-Cipher-Decryption-Using-Frequency-Analysis
     ```
 
 2. Compile the source files:
